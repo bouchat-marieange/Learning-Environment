@@ -17,58 +17,87 @@
       <p>Exercice markdown et github en collaboration</p>
     </header>
 
-    <div id=contenu>
+    <div id="contenu">
       <h2>Les Titres</h2>
       <p>
         Les titres en Markdown sont précédés du signe "#"(dièse) et le nombre de dièse se situant devant le titre définissent le niveau du titre. Ainsi un dièse devant du texte, sera l'équivalent d'un titre h1 en html, deux dièse pour un titre h2 etc...
       </p>
 
-      # titre1
-      ## titre2
-      ### titre3
+      <h4>Exemple</h4>
 
-      Resultat :
-      titre1
-      titre2
-      titre3
-      Les Paragraphes
+      <div class="markdown">
+        # titre1
+        ## titre2
+        ### titre3
+     </div>
 
-      Markdowns permet de mettre en évidence certaines parties du texte dans les paragraphes. Entourer le texte d'astérisques permet de le rendre italique, l'entourer de double astérisques le rendent gras. Les triples astériques permettent, d'accentuer la mise en évidence en combinant les deux effets précédents.
-      Exemple :
+      <h4>Resultat:</h4>
 
-      *mon texte italique*
-      **mont texte gras**
-      ***mon texte italique et gras***
+      <div class="html">
+        titre1
+        titre2
+        titre3
+      </div>
 
-      Resultat :
+      <h2>Les Paragraphes</h2>
 
-      texte
-      texte
-      texte
-      Les différentes listes
+      <p>
+        Markdowns permet de mettre en évidence certaines parties du texte dans les paragraphes. Entourer le texte d'astérisques permet de le rendre italique, l'entourer de double astérisques le rendent gras. Les triples astériques permettent, d'accentuer la mise en évidence en combinant les deux effets précédents.
+      </p>
 
-      Cette partie traitera de l'ajout de listes à puces, de listes numériques ainsi que de listes imbriquées.
+      <h4>Exemple :</h4>
 
-      Nous commencerons par expliquer comment les ajouter de manière très simple suivis d'un exemple en image pour chaque listes.
-      1. La liste à puces:
+      <div class="markdown">
+        *mon texte italique*
+        **mont texte gras**
+        ***mon texte italique et gras***
+      </div>
 
-      Lorsque vous avez plusieurs élément à afficher dans une liste non-ordonnée (sans numérotation), il vous suffi de commencer chaque ligne de code par une * suivis d'un espace puis de l'élément à lister.
+      <h4>Resultat :</h4>
 
-      Par exemple:
+      <div class="html">
+        <em>texte<em>
+        <strong>texte<strong>
+        <em><strong>texte</strong></em>
+      </div>
 
-          Belgique
-          Allemagne
-          France
-          . . .
+      <h2>Les différentes listes</h2>
 
-      Comment y arriver ?
+      <p>
+        Cette partie traitera de l'ajout de listes à puces, de listes numériques ainsi que de listes imbriquées.
+      </p>
 
-      * Belgique
-      * Allemagne
-      * France
-      * . . .
+      <p>
+        Nous commencerons par expliquer comment les ajouter de manière très simple suivis d'un exemple en image pour chaque listes.
+      </p>
 
-      2. La liste numérique:
+      <h3>1. La liste à puces:</h3>
+
+      <p>
+        Lorsque vous avez plusieurs élément à afficher dans une liste non-ordonnée (sans numérotation), il vous suffi de commencer chaque ligne de code par une * suivis d'un espace puis de l'élément à lister.
+      </p>
+
+      <h4>Par exemple:</h4>
+
+      <div class="html">
+          <ul>
+            <li>Belgique</li>
+            <li>Allemagne</li>
+            <li>France</li>
+            <li>. . .</li>
+          </ul>
+      </div>
+
+      <h4>Comment y arriver ?</h4>
+
+      <div class="markdown">
+        * Belgique
+        * Allemagne
+        * France
+        * . . .
+      </div>
+
+      <h3>2. La liste numérique:</h3>
 
       Imaginons que, suite à une compétition, vous avez un classement à afficher. C'est dans cette rubrique que vous trouverez la manière d'y parvenir.
       Il vous suffira de commencer la liste par un 1. suivis d'un espace puis de l'élément à placer en 1er.
