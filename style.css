@@ -47,10 +47,10 @@ h4
 /*centrage des images horizontalement*/
 .img_centre
 {
-display: block;
-margin: auto;
-width: 20%;
-padding:10px;
+  display: block;
+  margin: auto;
+  width: 20%;
+  padding:10px;
 }
 
 /*portion de code ou commande à mettre en surbrillance fond gris*/
