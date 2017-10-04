@@ -1,3 +1,62 @@
+body
+{
+  font-family: arial, sans-serif;
+  color: #6b6b6b;
+}
+
+h1,h2,h3,h4,h5
+{
+  color: #000;
+
+}
+
+h1
+{
+  border-bottom: #b7b7b7 solid 1px;
+}
+
+h4
+{
+  text-decoration: underline;
+}
+
+.gras_italic
+{
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown, .html
+{
+  background-color: #efefef;
+  padding: 20px;
+
+}
+
+.markdown  h1,h2,h3,h4
+{
+  border-bottom: none;
+}
+
+.html  h1,h2,h3,h4
+{
+  border-bottom: none;
+}
+
+.img_centre
+{
+display: block;
+margin: auto;
+width: 20%;
+padding:10px;
+}
+
+.portion_code
+{
+  background-color: #efefef;
+}
+
+/*Coloration synthaxique du code manuelle*/
 .bordeau
 {
   color: #940000;
@@ -10,5 +69,5 @@
 
 .blue
 {
-  color: #c0b3ff;
+  color: #0019ff;
 }
