@@ -8,7 +8,6 @@ body
 h1,h2,h3,h4,h5
 {
   color: #000;
-
 }
 
 h1
@@ -31,19 +30,21 @@ h4
 {
   background-color: #efefef;
   padding: 20px 20px 20px 20px;
-
 }
 
-.markdown  h1,h2,h3,h4
+/*Ne pas souligné les titres h1 contenu dans les blocs markdown*/
+.markdown  h1
 {
   border-bottom: none;
 }
 
-.html  h1,h2,h3,h4
+/*Ne pas souligné les titres h1 contenu dans les blocs html*/
+.html  h1
 {
   border-bottom: none;
 }
 
+/*centrage des images horizontalement*/
 .img_centre
 {
 display: block;
@@ -52,6 +53,7 @@ width: 20%;
 padding:10px;
 }
 
+/*portion de code ou commande à mettre en surbrillance fond gris*/
 .portion_code
 {
   background-color: #efefef;
