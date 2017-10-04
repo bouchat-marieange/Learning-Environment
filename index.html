@@ -162,21 +162,27 @@
                 </p>
         <h2>Liens</h2>
             <p>Contrairement au Html où l'utilisation de balises était nécessaire, en MarkDown, il suffit de placer le texte du lien entre crochets suivis de l'URL entre parenthèses. <br/>
-              Voyons comment cela fonctionne en pratique, avec la page d'OpenClassRooms qui est notre principale source d'inspiration. <br />
-              Je tape le texte "OpenClassRooms" entre [] et j'insère le lien entre parenthèses juste après : [texte](Lien).
+              <p>Voyons comment cela fonctionne en pratique, avec la page d'OpenClassRooms qui est notre principale source d'inspiration. </p>
+              <p>Je tape le texte "OpenClassRooms" entre [ ] et j'insère le lien entre parenthèses juste après : [texte](Lien).</p>
               <div class="markdown">
-                  <span class="gras">Exemple :</span> [texte du lien](http://lelieninternet.com)<br/>
+                  <h4>Exemple :</h4>
+                     [texte du lien](http://lelieninternet.com)<br/>
               </div>
               <br/>
               <div class="html">
-                  <span class="gras">Exemple :</span> <a href="https://openclassrooms.com/courses/redigez-en-markdown">OpenClassRooms.</a>
+                  <h4>Exemple :</h4>
+                   <a href="https://openclassrooms.com/courses/redigez-en-markdown">OpenClassRooms.</a>
               </div>
             </p>
         <h2>Images</h2>
-            <p>Pour ce qui est des images, le principe est le même, à la seule différence qu'il faut rajouter un point d'exclamations juste avant les crochets : <span class="code">![texte alternatif](lien de l'image)</span>. <br/>
+            <p>Pour ce qui est des images, le principe est le même, à la seule différence qu'il faut rajouter un point d'exclamations juste avant les crochets :</p>
+
+            <div class="markdown">
+                  <h4>Exemple:</h4>
+                  <p>![texte alternatif](lien de l'image)</p>
+                </div>.
             <p>Pour l'exemple, après de longues discussions, il a été décidé d'utiliser le Pingouin Ninja : Pingouin Ninja</p>
-              <img class="img_centre" src="https://camo.githubusercontent.com/fb20d97c50fbb9f3a2d157e0d767bf4e9e93d343/68747470733a2f2f7777772e73707265616473686972742e62652f696d6167652d7365727665722f76312f6d702f64657369676e732f31343532373930302c77696474683d3137382c6865696768743d3137382f70696e676f75696e2d6e696e6a612e706e67" alt="pinguin ninja" />
-            </p>
+                <img class="img_centre" src="https://camo.githubusercontent.com/fb20d97c50fbb9f3a2d157e0d767bf4e9e93d343/68747470733a2f2f7777772e73707265616473686972742e62652f696d6167652d7365727665722f76312f6d702f64657369676e732f31343532373930302c77696474683d3137382c6865696768743d3137382f70696e676f75696e2d6e696e6a612e706e67" alt="pinguin ninja" /></p>
         <h2>Images animées</h2>
           <p>Afin de vous exprimer notre gratitude, notre dino-dabeur tenait à vous faire une démonstration des images animées en MarkDown, à nouveau le principe est exactement le même que pour les images normales : dinosaure</p>
           <img class="img_centre" src="https://camo.githubusercontent.com/558b0fac0762270600f1d21985f0324bc3d5fb6e/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6c337a6f4b655838624d4735734d5034732f67697068792e676966" alt="Dinosaure dansant" />
@@ -204,11 +210,11 @@
 
 <p>Si on veut non pas ajouter tout un bloc de code mais uniquement montrer visuellement qu'une partie du texte dans une phrase est une instruction en code, on entoure celle-ci avec un caractère spécial ressemblant à un apostrophe inversée.</p>
 
-<p>Pour trouver ce caractère sur votre clavier, il faut utiliser la combinaison de touches Alt Gr + 7 ou la combinaison Alt GR + £ . Attention taper deux fois de suite l'un de ces raccourcis clavier pour voir apparaitre le caractère.</p>
+<p>Pour trouver ce caractère sur votre clavier, il faut utiliser la combinaison de touches Alt Gr + 7 ou la combinaison Alt Gr + £ . Attention taper deux fois de suite l'un de ces raccourcis clavier pour voir apparaitre le caractère.</p>
 
 <h4>Exemple:</h4>
 
-<p>La fonction printf() permet d'afficher du texte.</p>
+<p>La fonction <span class="portion_code">`printf()`</span> permet d'afficher du texte.</p>
 
 <h2>Séparer deux blocs de code</h2>
 
@@ -216,7 +222,7 @@
 
 <p>Les commentaires en html s'écrive comme ceci : <span class="portion_code">&lt;!-- texte en commentaire --&gt;;</span></p>
 
-Exemple:
+<h4>Exemple:</h4>
 <pre class="html">
     <span class="bordeau">&lt;script</span> <span class="rouge">type</span><span class="blue">=&quot;text/javascript&quot;</span> &gt;
       window.alert(<span class="bordeau">&quot;Hello World!&quot;</span>);
