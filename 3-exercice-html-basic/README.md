@@ -20,3 +20,14 @@ Comment je vais y remédier
 * Ryver uniquement quand j'ai le temps ou le soir pour faire un tour d'horizon des partages de la journée.
 * Casque pour focus sur travail
 
+Tout ce que cela m'a permis d'apprendre
+
+* Expliquer aux autres m'a permis de ne plus avoir besoin de référentiel pour utiliser les commandes git/github à force de les répéter pour expliquer, je les ai mémorisées.
+* J'utilisais une ancienne version de balsamiq assez limitée, la nouvelle est bien mieux et permet un travail rapide et efficace.
+* Ces sites comme https://www.flaticon.com peuvent vraiment faciliter la vie et faire gagner du temps en développement.
+* Vive emmet avec Atom, quel gain de temps !!!
+* Ne pas se perdre dans les détails, ne pas chercher à aller plus loin que demander dans un premier temps, approfondir si on en le temps une fois que les objectifs premiers sont atteints.
+* Discuter avec d'autres personnes des difficultés rencontrées permet de les envisager sous un autre angle et de dédramatiser et de se rebooster.
+
+
+

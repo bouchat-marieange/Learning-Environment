@@ -1,6 +1,84 @@
+body
+{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: #090909;
+}
+
+
+/*-----------------ICONES SOCIAL ------------------*/
+
 /*redimensionner les icones de reseaux sociaux*/
 .social_icon
 {
   width:50px;
   height:50px;
+}
+
+/*-----------------MENU ------------------*/
+
+/*retirer puces des items du menu*/
+nav ul
+{
+  list-style-type: none;
+}
+
+nav a
+{
+  text-decoration: none;/*retirer souligné des items du menu*/
+  color: #000;
+}
+
+nav ul li a
+{
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.bouton_menu
+{
+  background-color: #084171;
+  width: 150px;
+  /*pour centrer le texte 1 ligne dans la div mettre meme valeur en height et en line-height*/
+  height: 3em;
+  line-height:3em;
+  border-radius:10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bouton_menu a
+{
+  color: #fff;
+  text-transform: capitalize;
+}
+
+/*-----------------BANNER------------------*/
+#banner_image
+{
+  /*espace au dessus de la bannière (marge supérieure)*/
+  margin-top: 15px;
+  /*hauteur de l'image de la bannière*/
+  height: 1200px;
+  /*image de background pour qu'elle se place sous le block_banner*/
+  background: url('images/tigre.jpg') no-repeat;
+  /*position relative pour positionnement précis de l'image*/
+  position:relative;
+  /*ombre portée sous l'image pour donner du relief à la page*/
+  box-shadow: 0px 4px 4px #1c1a19;
+  /*espace sous la bannière (marge inférieure)*/
+  margin-bottom: 25px;
+}
+
+#block_banner
+{
+  position: absolute;
+  widht: 200px;
+  height:300px;
+  background: rgba(255,255,255,0.5);
+  border: solid black 2px;
+  padding-top: 15px;
+  padding-left: 4px;
+  color: #fff;
+  font-size: 2em;
 }
