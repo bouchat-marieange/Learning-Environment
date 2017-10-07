@@ -355,3 +355,13 @@ article .en_savoir_plus
   margin-left:250px;
   margin-bottom: 40px;
 }
+
+/*---------------------SECTION ADOPTE--------------------------*/
+
+#peluche
+{
+  position: relative;
+  margin-top:-137px;
+  margin-left:106px;
+  height: 400px;
+}
