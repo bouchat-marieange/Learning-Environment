@@ -5,17 +5,59 @@ body
   color: #090909;
 }
 
+/*.clear
+{
+  clear: both;
+}*/
+
+/*-----------------HEADER ------------------*/
+header
+{
+  width: 100%
+  display: flex;
+  flex-direction: row;
+  background-color: yellow;
+}
+
+
+/*-----------------LOGO ------------------*/
+#logo_header
+{
+  width:150px;
+  justify-content: space-between;
+}
+
+/*-----------------HEADER DROITE ------------------*/
+#header_droite
+{
+  background-color: red;
+  /*justify-content: space-between;*/
+  /*display:flex;*/
+}
+
 
 /*-----------------ICONES SOCIAL ------------------*/
+
+#social_header
+{
+  float: right;
+}
 
 /*redimensionner les icones de reseaux sociaux*/
 .social_icon
 {
-  width:50px;
-  height:50px;
+  width:40px;
+  height:40px;
 }
 
+
 /*-----------------MENU ------------------*/
+nav
+{
+  /*float: right;
+  margin-top:100px;*/
+  margin-right: 0;
+}
 
 /*retirer puces des items du menu*/
 nav ul
@@ -23,15 +65,27 @@ nav ul
   list-style-type: none;
 }
 
+nav li
+{
+  display: inline-block;
+}
+
 nav a
 {
   text-decoration: none;/*retirer souligné des items du menu*/
   color: #000;
+  padding-right: 10px;
+}
+
+nav a:hover
+{
+  color: #ff8a51;
+  text-decoration: underline;
 }
 
 nav ul li a
 {
-  font-size: 1.7em;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
@@ -45,7 +99,6 @@ nav ul li a
   border-radius:10px;
   font-weight: bold;
   text-align: center;
-
 }
 
 .bouton_menu a
@@ -63,6 +116,7 @@ nav ul li a
   height: 1200px;
   /*image de background pour qu'elle se place sous le block_banner*/
   background: url('images/tigre.jpg') no-repeat;
+  background-size:100%;
   /*position relative pour positionnement précis de l'image*/
   position:relative;
   /*ombre portée sous l'image pour donner du relief à la page*/
