@@ -202,7 +202,7 @@ blockquote
   margin-bottom: 60px;
 }
 
-/*-------------------------------QUI SOMMES-NOUS-----------------------------------*/
+/*---------------------QUI SOMMES-NOUS ET AUTRES SECTIONS--------------------------*/
 
 section
 {
@@ -244,4 +244,17 @@ h2
   display: inline-block;
   text-align: right;
   /*J'ai transformer le lien a (balise inline) en inline-blocks pour pouvoir lui appliquer text-align right - pour ne pas devoir utiliser de float pour une ligne.*/
+}
+
+/*-----------------------------------IMG SEPARATOR-----------------------------*/
+
+.img_separator
+{
+  margin-top: 45px;
+}
+
+.img_separator img
+{
+  width:1024px;
+  margin: auto;
 }
