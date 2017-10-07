@@ -246,6 +246,13 @@ h2
   /*J'ai transformer le lien a (balise inline) en inline-blocks pour pouvoir lui appliquer text-align right - pour ne pas devoir utiliser de float pour une ligne.*/
 }
 
+section img
+{
+  max-width: inherit;
+  margin: auto;
+  padding-top: 50px;
+}
+
 /*-----------------------------------IMG SEPARATOR-----------------------------*/
 
 .img_separator
@@ -257,4 +264,51 @@ h2
 {
   width:1024px;
   margin: auto;
+}
+
+/*-----------------------------------ARTICLES-----------------------------*/
+
+#especes_menacees
+{
+  margin-top: 50px;
+}
+
+article:last-child
+{
+  padding-top: 25px;
+}
+
+article
+{
+  height: 200px;
+  padding-top: 10px;
+}
+
+.photo_article img
+{
+  float: left;
+  width:35%;
+  border: 1px solid #090909;
+  padding-top:0;
+}
+
+.contenu_article
+{
+  float: right;
+  width: 60%;
+}
+
+article h3
+{
+  margin-top: 0;
+}
+
+article .paragraphe_normal
+{
+  margin-left:0;
+}
+
+article .en_savoir_plus
+{
+  font-size: 0.8em;
 }
