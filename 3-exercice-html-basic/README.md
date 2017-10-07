@@ -40,6 +40,7 @@
 * Les icones de la bonne taille, bon format, bonne couleur en un tour de main avec https://www.flaticon.com
 * Ressources images gratuites et grand format : https://pixabay.com/ et https://unsplash.com/
 * Superposition image de fond et bloc en transparence avec background-image sur conteneur en css.
+* Alignement vertical en css avec height et line-height, tout deux pouvant s'exprimer en em.
 * Entrainement flexbox, mais il dois il y avoir moyen de coder "plus propre et efficace" avec le système de grille CSS dans pas mal de situations.
 * Familiarisation avec les commandes de base de Emmet. Il y a moyen d'aller beaucoup plus loin https://docs.emmet.io/cheat-sheet/
 * Plugin Atom intéressants: Emmet, Auto-indent, indent-guide-improved, atom beautify, atom html preview "pas toujours fidèle" mieux vaut utiliser navigateur.
