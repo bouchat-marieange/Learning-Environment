@@ -183,23 +183,7 @@ blockquote
   background-size: 5%;
   background-repeat:no-repeat;
   min-height: 30px;
-}
-
-blockquote
-{
-  margin-top: 80px;
-  font-style:normal;
-  font-weight: bold;
-  font-size: 2em;
-  margin-left: 200px;
-  font-family:"Segoe Print", "Times New Roman", Verdana;
-  padding-left: 48px;
-  background:url('images/blockquote.png');
-  background-size: 5%;
-  background-repeat:no-repeat;
-  min-height: 30px;
   line-height: 35px;
-
 }
 
 #citation a
@@ -211,4 +195,53 @@ blockquote
 #author
 {
   font-size: 20px;
+}
+
+#citation
+{
+  margin-bottom: 60px;
+}
+
+/*-------------------------------QUI SOMMES-NOUS-----------------------------------*/
+
+section
+{
+  /*background-color: red;*/
+  margin-top: 30px;
+  width: 80%;
+  margin: auto;
+}
+
+h2
+{
+  color: #ff8a51;
+  margin-bottom: 25px;
+}
+
+.paragraphe_normal
+{
+  margin-left: 60px;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: normal;
+  text-align: justify;
+}
+
+.paragraphe_gras
+{
+  margin-left: 60px;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: normal;
+  text-align: justify;
+}
+
+.en_savoir_plus
+{
+  width: 100%;
+  color: #ff8a51;
+  font-weight: bold;
+  display: inline-block;
+  text-align: right;
+  /*J'ai transformer le lien a (balise inline) en inline-blocks pour pouvoir lui appliquer text-align right - pour ne pas devoir utiliser de float pour une ligne.*/
 }
