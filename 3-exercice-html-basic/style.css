@@ -202,6 +202,23 @@ blockquote
   margin-bottom: 60px;
 }
 
+.note
+{
+  margin-top: 0;
+  margin-left: 600px;
+  display: inline-block;
+  font-size: 1em;
+  color: grey;
+  font-familily: Arial, sans-serif;
+  text-align: right;
+}
+
+.souligne
+{
+  text-decoration: underline;
+}
+
+
 /*---------------------QUI SOMMES-NOUS ET AUTRES SECTIONS--------------------------*/
 
 section
@@ -311,4 +328,30 @@ article .paragraphe_normal
 article .en_savoir_plus
 {
   font-size: 0.8em;
+}
+
+/*---------------------SECTION DONS--------------------------*/
+
+#bouton_don
+{
+  width: 200px;
+  height:2em;
+  margin: auto;
+  line-height:2em;
+  background-color:#084171;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#bouton_don a
+{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+}
+
+.list_etape
+{
+  margin-left:250px;
+  margin-bottom: 40px;
 }
