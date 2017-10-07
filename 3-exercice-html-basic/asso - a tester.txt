@@ -1,0 +1,53 @@
+.asso
+{
+    /* Pour que les li soient des blocks en ligne */
+    display: inline-block;
+
+    max-width: 800px;
+    margin: 0 auto;
+    height: 100%;
+
+    list-style: none;
+    padding-left: 0;
+}
+/* Les tuiles */
+.asso li
+{
+    /* Tu connais */
+    float: left;
+    display: block;
+    /* Espacement entre les tuiles */
+    margin: 0 28px 28px 0;
+}
+
+/* Tous les <li> de la 4ème colonne */
+/*.asso li:nth-child(4n)
+{*/
+    /* Sont privés de padding right pour fit les 800px */
+    /*margin: 0 0 28px 0;
+}*/
+
+/* On donne la forme des tuiles sur la <a> pour que toute la surface soit clicable */
+.asso li a
+{
+    display: block;
+
+    width: 179px;
+    height: 179px;
+
+    background: rgba(255,255,255,.6);
+    /* Transition pour smooth tout ça */
+    transition: .2s ease-in-out;
+}
+/* Effet :D */
+.asso li a:hover,
+.asso li a:focus
+{
+    transform: scale(1.05);
+}
+/* Pour que les images n'hésitent pas à fit dans la plus grande largeur possible */
+.asso li a img
+{
+    max-height: 179px;
+    max-width: 179px;
+}

@@ -12,8 +12,10 @@ Les espèces sauvages sont indispensables à l’équilibre de la nature et à notre b
 Or, plus d'une espèce sur trois est aujourd'hui menacée de disparition. Depuis plus de 50 ans, le WWF protège le règne animal, en luttant notamment contre le braconnage, la destruction des habitats et les conflits entre hommes et animaux. Nous nous concentrons sur les espèces les plus vulnérables et les plus emblématiques, mais aussi sur celles qui jouent un rôle majeur au sein des écosystèmes.
 Le gorille à dos argenté
 Les gorilles partagent 98,3 % de leur ADN avec les humains. Ces animaux charismatiques et intelligents nous surprennent par leurs comportements et leurs émotions très similaires aux nôtres. Ces singes imposants, aux larges épaules et aux mains puissantes, vivent en « familles » de cinq à dix individus, qui sont sous l’autorité d’un mâle dominant. Parfois, ce nombre peut s’élever à plus de 50.
+
 Le jaguar
 Du Mexique à l’Argentine, le jaguar évolue dans des paysages diversifiés, entre forêts tropicales, marais, plaines et savanes. Contrairement aux autres félins, le jaguar est un excellent nageur. Il est aussi un grimpeur virtuose et est capable de tuer des animaux qui font parfois deux fois sa taille.
+
 Le panda géant
 Cet ours placide au pelage noir et blanc est adulé dans le monde entier et considéré comme un véritable emblême national en Chine. Pourtant, le panda géant est menacé. En raison des activités humaines, seuls 1 800 pandas vivent encore en liberté.
 
@@ -39,3 +41,7 @@ Autres associations de protection des animaux
 http://www.sanscollier.be/
 http://www.les-amis-des-animaux.be/
 https://www.la-spa.fr
+
+
+<p class="paragraphe_normal"></p>
+<p class="paragraphe_gras"></p>
