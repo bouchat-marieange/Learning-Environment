@@ -117,14 +117,14 @@ nav a:hover
   /*espace au dessus de la bannière (marge supérieure)*/
   margin-top: 5px;
   /*hauteur de l'image de la bannière*/
-  height: 1200px;
+  height: 680px;
   /*image de background pour qu'elle se place sous le block_banner*/
   background: url('images/tigre.jpg') no-repeat;
   background-size:100%;
   /*position relative pour positionnement précis de l'image*/
   position:relative;
   /*ombre portée sous l'image pour donner du relief à la page*/
-  box-shadow: 0px 4px 4px #1c1a19;
+  box-shadow: 0px 8px 8px #1c1a19;
   /*espace sous la bannière (marge inférieure)*/
   margin-bottom: 25px;
 }
@@ -166,4 +166,49 @@ nav a:hover
   text-decoration: none;
   color: #fff;
   font-size: 1em;
+}
+
+/*-------------------------------CITATION-----------------------------------*/
+
+blockquote
+{
+  margin-top: 80px;
+  font-style:normal;
+  font-weight: bold;
+  font-size: 2em;
+  margin-left: 200px;
+  font-family:"Segoe Print", "Times New Roman", Verdana;
+  padding-left: 48px;
+  background:url('images/blockquote.png');
+  background-size: 5%;
+  background-repeat:no-repeat;
+  min-height: 30px;
+}
+
+blockquote
+{
+  margin-top: 80px;
+  font-style:normal;
+  font-weight: bold;
+  font-size: 2em;
+  margin-left: 200px;
+  font-family:"Segoe Print", "Times New Roman", Verdana;
+  padding-left: 48px;
+  background:url('images/blockquote.png');
+  background-size: 5%;
+  background-repeat:no-repeat;
+  min-height: 30px;
+  line-height: 35px;
+
+}
+
+#citation a
+{
+  text-decoration:none;
+  color: #090909;
+}
+
+#author
+{
+  font-size: 20px;
 }
