@@ -7,11 +7,25 @@ body
   background-size: 50%;
 }
 
+.big
+{
+  font-size: 3.8em;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+
 p
 {
   font-family: 'Lobster', cursive;
   font-size:3em;
   text-align:center;
+  margin-top: 0;
+}
+
+#boutons
+{
+  margin:auto;
+  text-align: center;
 }
 
 .button {
@@ -54,4 +68,5 @@ a:hover.button{
 	color:#fff;
   font-weight: bolder;
   font-size:1.7em;
+  text-shadow: 2px 2px #514c5b;
 }
