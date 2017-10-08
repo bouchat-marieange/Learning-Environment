@@ -21,7 +21,9 @@ background-size: 50%;
   width: 90%;
   display: block;
   margin: auto;
-  position: fixed;
+  /*position: fixed;
+  position: static;*/
+  position: sticky;
 }
 
 /*---------------------TEXTE ERREUR 404 PAGE NOT FOUND------------------------*/
@@ -92,7 +94,7 @@ width: 100%;
 {
 position:relative;
 top: 50px;
-right:-2000px;
+right:-250px;
 background-color: white;
 padding:80px;
 transition-property: transform;
