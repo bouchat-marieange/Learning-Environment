@@ -26,7 +26,7 @@ Les problèmes rencontrés, comment je vais y remédier, ce que j'ai appris ...
 * Demande aide sur Ryver et installation babun pour palier à l'impossibilité de réparer git bash pour l'instant.
 * Print Cheat sheet commande Linux, console, git, atom, etc... + surlignage des commandes courantes et surlignage dans une autre couleur des nouvelles commandes découvertes.
 
-##Tout ce que cela m'a permis d'apprendre
+## Tout ce que cela m'a permis d'apprendre
 
 * Expliquer aux autres m'a permis de ne plus avoir besoin de référentiel pour utiliser les commandes git/github à force de les répéter pour expliquer, je les ai mémorisées.
 * J'utilisais une ancienne version de balsamiq assez limitée, la nouvelle est bien mieux et permet un travail rapide et efficace.
