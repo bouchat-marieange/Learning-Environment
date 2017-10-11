@@ -1,0 +1,219 @@
+<!Doctype html>
+
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Markdown to HTML</title>
+  <link rel="stylesheet" href="style.css">
+  <!--<script src="script.js"></script>-->
+</head>
+
+
+<body>
+
+  <header>
+    <h1>Exercice-markdown</h1>
+    <p>Exercice markdown et github en collaboration</p>
+  </header>
+
+  <h2>Les Titres</h2>
+  <p>Les titres en Markdown sont précédés du signe "#"(dièse) et le nombre de dièse se situant devant le titre définissent le niveau du titre. Ainsi un dièse devant du texte, sera l'équivalent d'un titre h1 en html, deux dièse pour un titre h2 etc...
+  </p>
+
+  <h4>Exemple</h4>
+  <div class="markdown">
+    # Titre 1 </br/>
+    ## Titre 2</br/>
+    ### Titre 3</br/>
+  </div>
+  <h4>Resultat:</h4>
+  <div class="html">
+    <h1>Titre1</h1>
+    <h2>Titre2</h2>
+    <h3>Titre3</h3>
+  </div>
+
+  <h2>Les Paragraphes</h2>
+  <p>Markdowns permet de mettre en évidence certaines parties du texte dans les paragraphes. Entourer le texte d'astérisques permet de le rendre italique, l'entourer de double astérisques le rendent gras. Les triples astériques permettent, d'accentuer la mise en évidence en combinant les deux effets précédents.</p>
+
+  <h4>Exemple :</h4>
+  <div class="markdown">
+    *mon texte italique*</br/>
+    **mont texte gras**</br/>
+    ***mon texte italique et gras***</br/>
+  </div>
+
+  <h4>Resultat :</h4>
+  <div class="html">
+    <em>texte</em></br/>
+    <strong>texte</strong></br/>
+    <span class="gras_italic">texte</span>
+  </div>
+
+  <h2>Les différentes listes</h2>
+
+  <p>Cette partie traitera de l'ajout de listes à puces, de listes numériques ainsi que de listes imbriquées.</p>
+
+  <p>Nous commencerons par expliquer comment les ajouter de manière très simple suivis d'un exemple en image pour chaque listes.</p>
+
+  <h3>1. La liste à puces:</h3>
+  <p>Lorsque vous avez plusieurs élément à afficher dans une liste non-ordonnée (sans numérotation), il vous suffi de commencer chaque ligne de code par une * suivis d'un espace puis de l'élément à lister.</p>
+
+  <h4>Par exemple:</h4>
+  <div class="html">
+    <ul>
+      <li>Belgique</li>
+      <li>Allemagne</li>
+      <li>France</li>
+      <li>. . .</li>
+    </ul>
+  </div>
+
+  <h4>Comment y arriver ?</h4>
+  <div class="markdown">
+    * Belgique</br/>
+    * Allemagne</br/>
+    * France</br/>
+    * ...</br/>
+  </div>
+
+  <h3>2. La liste numérique:</h3>
+  <p>Imaginons que, suite à une compétition, vous avez un classement à afficher. C'est dans cette rubrique que vous trouverez la manière d'y parvenir.
+    Il vous suffira de commencer la liste par un 1. suivis d'un espace puis de l'élément à placer en 1er.
+    Ce qui diffère de la liste à puces, c'est qu'il faudra commencer les lignes suivantes par 2. , 3. , etc..</p>
+
+    <h4>Par exemple:</h4>
+    <div class="html">
+      <ol>
+        <li>Belgique</li>
+        <li>Allemagne</li>
+        <li>France</li>
+      </ol>
+    </div>
+
+    <h4>Voici comment faire:</h4>
+    <div class="markdown">
+      1. Belgique</br/>
+      2. Allemagne</br/>
+      3. France</br/>
+    </div>
+
+    <h3>3. La liste imbriquées:</h3>
+    <p>Il est aussi possible d'imbriquer une liste dans une autre lorsque vous avez besoin d'afficher des sous-éléments.</p>
+    <h5>Liste à puces:</h5>
+    <div class="html">
+      <ul>
+        <li>Belgique</li>
+        <ul>
+          <li>Bruxelles</li>
+        </ul>
+        <li>Allemagne</li>
+        <ul>
+          <li>Berlin</li>
+        </ul>
+        <li>France</li>
+        <ul>
+          <li>Paris</li>
+        </ul>
+      </ul>
+    </div>
+
+    <h5>Liste numérique:</h5>
+    <div class="html">
+      <ol>
+        <li>Belgique</li>
+        <ol>
+          <li>Bruxelles</li>
+          <li>Anvers</li>
+        </ol>
+        <li>Allemagne</li>
+        <ol>
+          <li>Berlin</li>
+        </ol>
+        <li>France</li>
+        <ol>
+          <li>Paris</li>
+        </ol>
+      </ol>
+    </div>
+    <p>Pour avoir le même résultat, il faudra simplement créer un tabulation (appuyez sur la touche Tab de votre claier) puis procéder de la même façon que sur les exemples précédents.</p>
+
+    <div class="markdown">
+      * Belgique</br/>
+      <span class="decalage">* Bruxelles</br/></span>
+      * Allemagne</br/>
+      <span class="decalage">* Berlin</br/></span>
+      * France</br/>
+      <span class="decalage">* Paris</br/></span>
+    </div>
+    <p>PS: pour la liste numérique imbriquée, il vous faudra commencer par 4 espaces avant d'énumérer vos éléments.
+      Comment insérer un lien ou une image en MarkDown ?</p>
+      <h2>Liens</h2>
+      <p>Contrairement au Html où l'utilisation de balises était nécessaire, en MarkDown, il suffit de placer le texte du lien entre crochets suivis de l'URL entre parenthèses. </p>
+      <p>Voyons comment cela fonctionne en pratique, avec la page d'OpenClassRooms qui est notre principale source d'inspiration. </p>
+      <p>Je tape le texte "OpenClassRooms" entre [ ] et j'insère le lien entre parenthèses juste après : [texte](Lien).</p>
+      <div class="markdown">
+        <h4>Exemple :</h4>
+        [texte du lien](http://lelieninternet.com)<br/>
+      </div>
+    </br>
+    <!-- le br Permet de couper le bloc en deux pour l'affichage des exemples -->
+    <div class="html">
+      <h4>Exemple :</h4>
+      <a href="https://openclassrooms.com/courses/redigez-en-markdown">OpenClassRooms.</a>
+    </div>
+    <h2>Images</h2>
+    <p>Pour ce qui est des images, le principe est le même, à la seule différence qu'il faut rajouter un point d'exclamations juste avant les crochets :</p>
+    <div class="markdown">
+      <h4>Exemple:</h4>
+      <p>![texte alternatif](lien de l'image)</p>
+    </div>.
+    <p>Pour l'exemple, après de longues discussions, il a été décidé d'utiliser le Pingouin Ninja : Pingouin Ninja</p>
+    <img class="img_centre" src="https://camo.githubusercontent.com/fb20d97c50fbb9f3a2d157e0d767bf4e9e93d343/68747470733a2f2f7777772e73707265616473686972742e62652f696d6167652d7365727665722f76312f6d702f64657369676e732f31343532373930302c77696474683d3137382c6865696768743d3137382f70696e676f75696e2d6e696e6a612e706e67" alt="pinguin ninja" /></p>
+    <h2>Images animées</h2>
+    <p>Afin de vous exprimer notre gratitude, notre dino-dabeur tenait à vous faire une démonstration des images animées en MarkDown, à nouveau le principe est exactement le même que pour les images normales : dinosaure</p>
+    <img class="img_centre" src="https://camo.githubusercontent.com/558b0fac0762270600f1d21985f0324bc3d5fb6e/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6c337a6f4b655838624d4735734d5034732f67697068792e676966" alt="Dinosaure dansant" />
+
+    <h2>Afficher du code</h2>
+
+    <h3>Pour afficher du code avec coloration syntaxique en Markdown</h3>
+
+    <p>Il est possible d'afficher une portion de code tout en maintenant sa coloration syntaxique grâce au markdow.</p>
+    <p>Pour un bloc de code, procéder en indentant tout simplement le code (touche tab ou 4 espaces)</p>
+    <span class="gras">Exemple:</span> Voici un code en C :
+
+    <pre class="html">
+      <span class="bordeau">&lt;script</span> <span class="rouge">type</span><span class="blue">=&quot;text/javascript&quot;</span> &gt;
+      window.alert(<span class="bordeau">&quot;Hello World!&quot;</span>);
+      alert(<span class="bordeau">&quot;Hello World!&quot;</span>);
+      <span class="bordeau">&lt;/script&gt;</span>
+    </pre>
+
+    <h3>Pour afficher du code de type instructions dans une ligne de texte en Markdown</h3>
+
+    <p>Si on veut non pas ajouter tout un bloc de code mais uniquement montrer visuellement qu'une partie du texte dans une phrase est une instruction en code, on entoure celle-ci avec un caractère spécial ressemblant à un apostrophe inversée.</p>
+    <p>Pour trouver ce caractère sur votre clavier, il faut utiliser la combinaison de touches Alt Gr + 7 ou la combinaison Alt Gr + £ . Attention taper deux fois de suite l'un de ces raccourcis clavier pour voir apparaitre le caractère.</p>
+    <h4>Exemple:</h4>
+    <p>La fonction <span class="portion_code">`printf()`</span> permet d'afficher du texte.</p>
+
+    <h2>Séparer deux blocs de code</h2>
+    <p>Il peut être génant lorsque l'on veut placer deux blocs de code l'un à la suite de l'autre qu'il s'affiche dans un seul et même bloc. Pour éviter cela, il faut séparer les deux blocs avec un ligne de commentaire html qui n'apparaitra pas à l'écran.</p>
+    <p>Les commentaires en html s'écrive comme ceci : <span class="portion_code">&lt;!-- texte en commentaire --&gt;;</span></p>
+    <h4>Exemple:</h4>
+
+    <pre class="html">
+      <span class="bordeau">&lt;script</span> <span class="rouge">type</span><span class="blue">=&quot;text/javascript&quot;</span> &gt;
+      window.alert(<span class="bordeau">&quot;Hello World!&quot;</span>);
+      alert(<span class="bordeau">&quot;Hello World!&quot;</span>);
+      <span class="bordeau">&lt;/script&gt;</span>
+      <!-- commmentaire html pour séparer les deux bloc de code-->
+      <span class="bordeau">&lt;script</span> <span class="rouge">type</span><span class="blue">=&quot;text/javascript&quot;</span> &gt;
+      window.alert(<span class="bordeau">&quot;Hello World!&quot;</span>);
+      alert(<span class="bordeau">&quot;Hello World!&quot;</span>);
+      <span class="bordeau">&lt;/script&gt;</span>
+    </pre>
+
+  </body>
+
+  </html>
