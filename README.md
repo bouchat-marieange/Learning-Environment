@@ -52,9 +52,9 @@ Les problèmes rencontrés, comment je vais y remédier, ce que j'ai appris ...
 
 ## Les GitHub Pages de mes exercices
 
-Exercice 3 HTML Basic: https://bouchat-marieange.github.io/HTML_basic/
-Exercice 4 Page 404: https://bouchat-marieange.github.io/404-Page/
-Exercice 5 CV: https://bouchat-marieange.github.io/Mon-CV/
-Exercice 6 Vcard:
-Exercice 7 star-wars: https://bouchat-marieange.github.io/Star-Wars-Crawl/
-Exercice 8 Summary: https://bouchat-marieange.github.io/starting-web-developpment/
+* Exercice 3 HTML Basic: https://bouchat-marieange.github.io/HTML_basic/
+* Exercice 4 Page 404: https://bouchat-marieange.github.io/404-Page/
+* Exercice 5 CV: https://bouchat-marieange.github.io/Mon-CV/
+* Exercice 6 Vcard:
+* Exercice 7 star-wars: https://bouchat-marieange.github.io/Star-Wars-Crawl/
+* Exercice 8 Summary: https://bouchat-marieange.github.io/starting-web-developpment/
