@@ -49,3 +49,12 @@ Les problèmes rencontrés, comment je vais y remédier, ce que j'ai appris ...
 * Plugin Atom intéressants: Emmet, Auto-indent, indent-guide-improved, atom beautify, atom html preview "pas toujours fidèle" mieux vaut utiliser navigateur.
 * Plugin Chrome pour actualiser en vidant le cache : clear cache
 * J'ai enfin compris comment utiliser l'inspecteur de code de Chrome pour faire des essais de positionnement précis en modifiant les valeurs avec flèche haut et flèche bas.
+
+## Les GitHub Pages de mes exercices
+
+Exercice 3 HTML Basic: https://bouchat-marieange.github.io/HTML_basic/
+Exercice 4 Page 404: https://bouchat-marieange.github.io/404-Page/
+Exercice 5 CV: https://bouchat-marieange.github.io/Mon-CV/
+Exercice 6 Vcard:
+Exercice 7 star-wars: https://bouchat-marieange.github.io/Star-Wars-Crawl/
+Exercice 8 Summary: https://bouchat-marieange.github.io/starting-web-developpment/
