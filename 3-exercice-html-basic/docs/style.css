@@ -1,108 +1,432 @@
-/*---------------------IMAGE ARRET BUS TOTORO------------------------*/
-
-/*body
+body
 {
-background-image: url("image/bus_stop_blur.jpg");
-background-repeat: no-repeat;
-background-attachment:fixed;
-background-position:bottom center;
-background-size: 50%;
-}*/
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: #090909;
+  width:1024px;
+  margin: auto;
+}
 
-#bus_stop
+/*-------------------------------HEADER-----------------------------------*/
+
+header
+{
+  /*background-color: red;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#logo_header
+{
+  /*background-color: yellow;*/
+  width: 20%;
+}
+
+#logo_header img
+{
+  /*background-color: yellow;*/
+  width: 100px;
+  margin-left:15px;
+}
+
+#header_droite
+{
+  /*background-color: blue;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*-------------------------------SOCIAL MEDIA-----------------------------------*/
+
+#social_header
+{
+  /*background-color: purple;*/
+  list-style-type: none;
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-end;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+#social_header a
+{
+  display:inline-block;
+  padding-left: 8px;
+}
+
+.social_icon
+{
+  width:30px;
+  height:30px;
+}
+
+/*-------------------------------NAVIGATION-----------------------------------*/
+
+nav
+{
+  /*background-color: green;*/
+  list-style-type: none;
+  flex-wrap: nowrap;
+}
+
+nav li
+{
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav a
+{
+  text-decoration: none;/*retirer souligné des items du menu*/
+  color: #000;
+  padding-right: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav a:hover
+{
+  color: #ff8a51;
+  text-decoration: underline;
+}
+
+.bouton_menu
+{
+  background-color: #084171;
+  width: 150px;
+  /*pour centrer le texte 1 ligne dans la div mettre meme valeur en height et en line-height*/
+  height: 3em;
+  line-height:3em;
+  border-radius:10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bouton_menu a
+{
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/*-------------------------------BANNER-----------------------------------*/
+#banner_image
+{
+  /*espace au dessus de la bannière (marge supérieure)*/
+  margin-top: 5px;
+  /*hauteur de l'image de la bannière*/
+  height: 680px;
+  /*image de background pour qu'elle se place sous le block_banner*/
+  background: url('images/tigre.jpg') no-repeat;
+  background-size:100%;
+  /*position relative pour positionnement précis de l'image*/
+  position:relative;
+  /*ombre portée sous l'image pour donner du relief à la page*/
+  box-shadow: 0px 8px 8px #1c1a19;
+  /*espace sous la bannière (marge inférieure)*/
+  margin-bottom: 25px;
+}
+
+#block_banner
 {
   position: absolute;
-  z-index:-1;
-  margin-top: 30px;
+  widht: 500px;
+  height:290px;
+  background: rgba(255,255,255,0.4);
+  padding: 20px;
+  margin-top:300px;
+  margin-left: 50px;
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px -2px #000;
 }
 
-#bus_stop img
+#proteger
 {
-  width: 90%;
-  display: block;
+  font-size: 1.8em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#bouton_banner
+{
+  width: 300px;
+  height:2em;
+  line-height:2em;
+  background-color:#084171;
+  border-radius: 15px;
+}
+
+#bouton_banner a
+{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+}
+
+/*-------------------------------CITATION-----------------------------------*/
+
+blockquote
+{
+  margin-top: 80px;
+  font-style:normal;
+  font-weight: bold;
+  font-size: 2em;
+  margin-left: 200px;
+  font-family:"Segoe Print", "Times New Roman", Verdana;
+  padding-left: 48px;
+  background:url('images/blockquote.png');
+  background-size: 5%;
+  background-repeat:no-repeat;
+  min-height: 30px;
+  line-height: 35px;
+}
+
+#citation a
+{
+  text-decoration:none;
+  color: #090909;
+}
+
+#author
+{
+  font-size: 20px;
+}
+
+#citation
+{
+  margin-bottom: 60px;
+}
+
+.note
+{
+  margin-top: 0;
+  margin-left: 600px;
+  display: inline-block;
+  font-size: 1em;
+  color: grey;
+  font-familily: Arial, sans-serif;
+  text-align: right;
+}
+
+.souligne
+{
+  text-decoration: underline;
+}
+
+
+/*---------------------QUI SOMMES-NOUS ET AUTRES SECTIONS--------------------------*/
+
+section
+{
+  /*background-color: red;*/
+  margin-top: 30px;
+  width: 80%;
   margin: auto;
-  /*position: fixed;
-  position: static;*/
-  position: sticky;
 }
 
-/*---------------------TEXTE ERREUR 404 PAGE NOT FOUND------------------------*/
-.big
+h2
 {
-  font-size: 3.8em;
-  margin-bottom: 0;
-  margin-top: 30px;
+  color: #ff8a51;
+  margin-bottom: 25px;
 }
 
-p
+.paragraphe_normal
 {
-  font-family: 'Lobster', cursive;
-  font-size:3em;
-  text-align:center;
+  margin-left: 60px;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: normal;
+  text-align: justify;
+}
+
+.paragraphe_gras
+{
+  margin-left: 60px;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: normal;
+  text-align: justify;
+}
+
+.en_savoir_plus
+{
+  width: 100%;
+  color: #ff8a51;
+  font-weight: bold;
+  display: inline-block;
+  text-align: right;
+  /*J'ai transformer le lien a (balise inline) en inline-blocks pour pouvoir lui appliquer text-align right - pour ne pas devoir utiliser de float pour une ligne.*/
+}
+
+section img
+{
+  max-width: inherit;
+  margin: auto;
+  padding-top: 50px;
+}
+
+/*-----------------------------------VIDEO-----------------------------*/
+
+/*video
+{
+float: right;
+padding-top: 50px;
+}*/
+
+iframe
+{
+  float: right;
+  padding-top: 50px;
+}
+
+/*-----------------------------------IMG SEPARATOR-----------------------------*/
+
+.img_separator
+{
+  margin-top: 45px;
+}
+
+.img_separator img
+{
+  width:1024px;
+  margin: auto;
+}
+
+/*-----------------------------------ARTICLES-----------------------------*/
+
+#especes_menacees
+{
+  margin-top: 50px;
+}
+
+article:last-child
+{
+  padding-top: 25px;
+}
+
+article
+{
+  height: 200px;
+  padding-top: 10px;
+}
+
+.photo_article img
+{
+  float: left;
+  width:35%;
+  border: 1px solid #090909;
+  padding-top:0;
+}
+
+.contenu_article
+{
+  float: right;
+  width: 60%;
+}
+
+article h3
+{
   margin-top: 0;
 }
 
+article .paragraphe_normal
+{
+  margin-left:0;
+}
 
-/*---------------------BOUTON------------------------*/
+article .en_savoir_plus
+{
+  font-size: 0.8em;
+}
 
-#boutons
+/*---------------------SECTION DONS--------------------------*/
+
+#bouton_don
+{
+  width: 200px;
+  height:2em;
+  margin: auto;
+  line-height:2em;
+  background-color:#084171;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#bouton_don a
+{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+}
+
+.list_etape
+{
+  margin-left:250px;
+  margin-bottom: 40px;
+}
+
+/*---------------------SECTION ADOPTE--------------------------*/
+
+#peluche
 {
   position: relative;
-  margin:auto;
-  text-align: center;
+  margin-top:-137px;
+  margin-left:106px;
+  height: 400px;
 }
 
-.button {
-  background-color: #7155a8;
-  border: none;
-  border-radius: 20px;
-  color: white;
-  padding: 16px 32px;
+/*---------------------AUTRES ASSOCIATIONS--------------------------*/
+#associations
+{
+  padding-top:150px;
+}
+
+#associations h2
+{
   text-align: center;
-  text-decoration: none;
+  margin-bottom: 0;
+}
+
+.asso
+{
+  /* Pour que les li soient des blocks en ligne */
   display: inline-block;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
-  margin: 4px 2px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  cursor: pointer;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 100%;
+  list-style: none;
+  padding-left: 150px;
 }
 
-.button:hover
+.asso li
 {
-  background-color: #463a5e;
-  border:2px solid:
+  float: left;
+  display: block;
+  margin: 0 28px 28px 0;
 }
 
-
-a:hover.button{
-  color:#fff;
-  font-weight: bolder;
-  font-size:1.7em;
-  text-shadow: 2px 2px #514c5b;
-}
-
-/*------------------------------L'arrivée du chat bus---------------------------*/
-
-/*#catbus img
+.asso li a
 {
-width: 100%;
+  display: block;
+  width: 179px;
+  height: 179px;
+  background: rgba(255,255,255,.6);
+  transition: .2s ease-in-out;
 }
 
-#catbus
+.asso li a:hover,
+.asso li a:focus
 {
-position:relative;
-top: 50px;
-right:-250px;
-background-color: white;
-padding:80px;
-transition-property: transform;
-transition-duration: 1s;
-transition-timing-function: ease;
+  transform: scale(1.05);
 }
 
-div:hover
+.asso li a img
 {
-transform: translateX(-2000px);
-}*/
+  max-height: 179px;
+  max-width: 179px;
+}

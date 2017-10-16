@@ -1,36 +1,211 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <title>Exercice 4 - Page 404</title>
+  <title>Exercice-html-basic</title>
 </head>
+
 <body>
-
-    <div id="texte">
-      <p class="big">Oops! 404 - Page not found</p>
-      <p>You are Lost ?</p>
+  <header>
+    <!-- Logo cliquable renvoyant vers le site officiel de wwf belgique -->
+    <div id="logo_header">
+      <a href="https://wwf.be/fr">
+        <img src="images/logo/WWF_little.png" alt="logo WWF">
+      </a>
     </div>
 
-    <!-- Bouton Call Catbus et Back Home -->
-    <div id="boutons">
-      <!-- <a href="https://media.tenor.com/images/f1cabf15f3e299db1e1d7e96b340124c/tenor.gif" class="button"><span class="catbus">Call the Catbus</span></a> -->
-      <a href="https://github.com/bouchat-marieange" class="button"><span class="backhome">Back Home</span></a>
-    </div>
+    <div id="header_droite">
+      <!-- Les logos cliquables vers les reseaux sociaux -->
+      <div id="social_header">
+        <a href="#"><img class="social_icon" src="images/social/facebook.png" alt="facebook"></a>
+        <a href="#"><img class="social_icon" src="images/social/twitter.png" alt="twitter"></a>
+        <a href="#"><img class="social_icon" src="images/social/instagram.png" alt="instagram"></a>
+        <a href="#"><img class="social_icon" src="images/social/youtube.png" alt="youtube"></a>
+      </div>
 
-    <div id="bus_stop">
-      <!-- L'image de fond est placée sur le body en background-image dans le css -->
-      <img src="image/bus_stop_blur.jpg" alt="Totoro à l'arrêt de bus">
-    </div>
+      <!-- Le menu de navigation fonctionnant sur base des ancres dans la landing page -->
+      <nav>
+        <ul>
+          <li><a href="#menu_qui_sommes_nous">Qui sommes-nous?</a></li>
+          <li><a href="#menu_actions">Actions</a></li>
+          <li><a href="#menu_dons">Dons</a></li>
+          <li><a href="#menu_adopter">Adopter</a></li>
+        </ul>
 
-    <!-- Le chat bus arrive -->
-    <!-- <div id="catbus">
-      <img src="image/catbus.gif" alt="Totoro catbus">
-    </div> -->
+        <!-- le bouton à la fin du menu -->
+        <!-- <div class="bouton_menu">
+          <p><a href="#">Faites UN DON</a></p>
+        </div> -->
+      </nav>
+    </div>
+  </header>
+
+  <div id="banner_image">
+    <div id="block_banner">
+      <p>Notre Mission</p>
+      <p id="proteger">PROT&Eacute;GER</p>
+      <div id="bouton_banner">
+        <p><a href="#">FAITES UN DON</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div id="citation">
+    <a href="https://thatsthespir.it/">
+      <blockquote>
+        <p>I never lose. I either win, or learn.<br>
+          <span id="author">- Nelson Mandela</span>
+        </p>
+      </blockquote>
+      <p class="note"><span class="souligne">Source</span>: https://thatsthespir.it/</p>
+    </a>
+  </div>
+
+  <section>
+    <h2 href="#qui_sommes_nous">Qui sommes-nous ?</h2>
+      <p class="paragraphe_gras">Le WWF est l’une des organisations internationales de conservation de la nature indépendantes les plus étendues et les plus respectées au monde. Notre réseau est composé de plus de 90 bureaux dans plus de 65 pays. Nous agissons aussi bien à l’échelle locale que globale.</p>
+      <p class="paragraphe_normal">Le WWF est né en 1961. Il coordonne aujourd’hui plus de 1 000 projets à travers le monde. La plupart des projets WWF se déroulent à l’échelle locale et sont très diversifiés. Ils vont de la plantation d'arbres au Congo à des actions de visibilité dans votre supermarché. De la sauvegarde de l’habitat des orangs outans à la création de réserves pour le panda géant.</p>
+      <a class="en_savoir_plus" href="#">> EN SAVOIR PLUS</a>
+
+      <!-- Ancienne methode pour intégrer video dans page html -->
+      <!-- <video width="800" height="480" controls="controls" poster="video/poster.jpg">
+        <source src="video/wwf.mp4" type="video/mp4" />
+        <source src="video/wwf.webm" type="video/webm" />
+        <source src="video/wwf.ogv" type="video/ogg" />
+        Si vous ne pouvez pas voir cette vidéo, veuillez mettre votre navigateur à jour.
+      </video> -->
+
+      <!-- Nouvelle méthode pour intégrer video dans page html (clic droit sur video youtube - copier le code d'intégration et coller dans code html) -->
+      <iframe width="854" height="480" src="https://www.youtube.com/embed/o436w5Ps0BQ" frameborder="0" allowfullscreen></iframe>
+      <p><img src="images/logo/evolution_logo_wwf.jpg" alt="evolution logo WWF"></p>
+  </section>
+
+  <div class="img_separator">
+    <img src="images/main_gorille.jpg" alt="main humain contre main gorille">
+  </div>
+
+  <section>
+    <h2 href="#actions">Actions</h2>
+      <p class="paragraphe_gras">Les espèces sauvages sont indispensables à l’<strong>équilibre de la nature</strong> et à notre bien-être. Près de deux millions d’espèces animales et végétales ont été identifiées à ce jour et des millions d'autres n'ont pas encore été découvertes. Cette incroyable biodiversité est essentielle à notre vie sur Terre.</p>
+      <p class="paragraphe_normal">Or, plus d'une espèce sur trois est aujourd'hui menacée de disparition. Depuis plus de 50 ans, le <strong>WWF protège le règne animal</strong>, en luttant notamment contre le braconnage, la destruction des habitats et les conflits entre hommes et animaux. Nous nous concentrons sur les espèces les plus vulnérables et les plus emblématiques, mais aussi sur celles qui jouent un rôle majeur au sein des écosystèmes.</p>
+      <a class="en_savoir_plus" href="#">> EN SAVOIR PLUS</a>
+
+      <div id="especes_menacees">
+        <article>
+          <div class="photo_article">
+            <img src="images/gorille.jpg" alt="gorille" />
+          </div>
+          <div class="contenu_article">
+            <h3>Le gorille à dos argenté</h3>
+            <p class="paragraphe_normal">Les gorilles partagent 98,3 % de leur ADN avec les humains. Ces animaux charismatiques et intelligents nous surprennent par leurs comportements et leurs émotions très similaires aux nôtres. Ces singes imposants, aux larges épaules et aux mains puissantes, vivent en « familles » de cinq à dix individus, qui sont sous l’autorité d’un mâle dominant. Parfois, ce nombre peut s’élever à plus de 50.</p>
+            <a class="en_savoir_plus" href="#">> EN SAVOIR PLUS</a>
+          </div>
+        </article>
+
+        <article>
+          <div class="photo_article">
+            <img src="images/jaguar.jpg" alt="gorille" />
+          </div>
+          <div class="contenu_article">
+            <h3>Le jaguar</h3>
+            <p class="paragraphe_normal">Du Mexique à l’Argentine, le jaguar évolue dans des paysages diversifiés, entre forêts tropicales, marais, plaines et savanes. Contrairement aux autres félins, le jaguar est un excellent nageur. Il est aussi un grimpeur virtuose et est capable de tuer des animaux qui font parfois deux fois sa taille.</p>
+            <a class="en_savoir_plus" href="#">> EN SAVOIR PLUS</a>
+          </div>
+        </article>
+
+        <article>
+          <div class="photo_article">
+            <img src="images/panda.jpg" alt="gorille" />
+          </div>
+          <div class="contenu_article">
+            <h3>Le panda géant</h3>
+            <p class="paragraphe_normal">Cet ours placide au pelage noir et blanc est adulé dans le monde entier et considéré comme un véritable emblême national en Chine. Pourtant, le panda géant est menacé. En raison des activités humaines, seuls 1 800 pandas vivent encore en liberté.</p>
+            <a class="en_savoir_plus" href="#">> EN SAVOIR PLUS</a>
+          </div>
+        </article>
+      </div>
+  </section>
+
+  <div class="img_separator">
+    <img src="images/panda_roux.jpg" alt="panda roux">
+  </div>
+
+  <section>
+    <h2 href="#dons">Dons</h2>
+      <p class="paragraphe_gras">En soutenant notre organisation, vous assurez l’avenir de notre planète. Grâce à vous, nous pouvons mener des projets sur le terrain et œuvrer à un monde où l'homme et la nature vivent en harmonie. </p>
+      <p class="paragraphe_normal">
+        <ol class="list_etape">
+          <li>Choisissez un montant</li>
+          <li>Remplissez vos données personnelles</li>
+          <li>Effectuer le paiement</li>
+        </ol>
+      </p>
+      <div id="bouton_don">
+        <p><a href="#">FAITES UN DON</a></p>
+      </div>
+  </section>
+
+  <div class="img_separator">
+    <img src="images/bison.jpg" alt="bison">
+  </div>
+
+  <section>
+    <h2 href="#adopte">Adoptez un animal en danger</h2>
+      <p class="paragraphe_gras">Tigres, gorilles, pandas, dauphins : ils ont besoin de vous !
+      Découvrez comment les protéger.</p>
+      </p>
+      <div id="bouton_don">
+        <p><a href="#">ADOPTEZ UN ANIMAL</a></p>
+      </div>
+
+      <div id="especes_menacees">
+        <article>
+          <div class="photo_article">
+            <img src="images/dauphin.jpg" alt="dauphin" />
+          </div>
+          <div class="contenu_article">
+            <h3>Le gorille à dos argenté</h3>
+            <p class="paragraphe_normal">Les gorilles partagent 98,3 % de leur ADN avec les humains. Ces animaux charismatiques et intelligents nous surprennent par leurs comportements et leurs émotions très similaires aux nôtres. Ces singes imposants, aux larges épaules et aux mains puissantes, vivent en « familles » de cinq à dix individus, qui sont sous l’autorité d’un mâle dominant. Parfois, ce nombre peut s’élever à plus de 50.</p>
+          </div>
+        </article>
+
+        <article>
+          <div class="photo_article">
+            <img src="images/tortue.jpg" alt="tortue" />
+          </div>
+          <div class="contenu_article">
+            <h3>Le jaguar</h3>
+            <p class="paragraphe_normal">Du Mexique à l’Argentine, le jaguar évolue dans des paysages diversifiés, entre forêts tropicales, marais, plaines et savanes. Contrairement aux autres félins, le jaguar est un excellent nageur. Il est aussi un grimpeur virtuose et est capable de tuer des animaux qui font parfois deux fois sa taille.</p>
+          </div>
+        </article>
+
+        <article>
+          <div class="photo_article">
+            <img src="images/bonobo.jpg" alt="bonobo" />
+          </div>
+          <div class="contenu_article">
+            <img id="peluche" src="images/peluches.jpg" alt="peluches" />
+          </div>
+        </article>
+      </div>
+  </section>
+
+  <section id="associations">
+    <h2>Autres associations</h2>
+    <ul class="asso">
+      <li><a href="https://www.la-spa.fr/"><img src="images/logo/spa.jpg" alt="SPA"></a></li>
+      <li><a href="https://www.worldanimalprotection.org/"><img src="images/logo/world_animal_protection.png" alt="World Animal Protection"></a></li>
+      <li><a href="https://calisere38.wixsite.com/cali"><img src="images/logo/cali.jpg" alt="Cali"></a></li>
+    </ul>
+  </section>
+
+
+
+
 
 </body>
 </html>
